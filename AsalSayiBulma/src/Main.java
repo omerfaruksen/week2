@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
+    //Recursive metotumuzu oluşturduk
     static void asal(int sayi){
+        //Asal sayıyıbulma
         int sayac=0;
         for(int i = 2; i < sayi; i++)
         {
@@ -19,9 +21,11 @@ public class Main {
     }
     public static void main(String[] args) {
         int sayi;
+        //Kullanıcıdan verileri alma
         Scanner info=new Scanner(System.in);
         System.out.print("Bir Sayı Giriniz : ");
         sayi= info.nextInt();
+        //Metot çağırma ve ekrana bastırma
         asal(sayi);
 
     }
