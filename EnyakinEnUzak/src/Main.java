@@ -25,8 +25,8 @@ public class Main {
             }
         }
         //Sonuçları ekrana batırıyoruz.
-        System.out.println("Girilen sayıya en yakın en küçük sayı "+ minSayi);
-        System.out.println("Girilen sayıya en yakın en büyük sayı "+ maxSayi);
+        System.out.println("Girilen sayıdan küçük en yakın sayı :"+ minSayi);
+        System.out.println("Girilen sayıdan büyük en yakın sayı : "+ maxSayi);
 
     }
 }
